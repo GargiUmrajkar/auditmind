@@ -1,0 +1,7 @@
+.env
+cfr_venv/
+documentation/
+drafts/
+code_v3.ipynb
+faiss_index/
+.DS_Store

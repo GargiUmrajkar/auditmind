@@ -1,0 +1,10 @@
+langchain
+transformers
+PyPDF2
+langchain-community
+pypdf
+sentence_transformers
+faiss-cpu
+scikit-learn 
+nltk 
+keybert

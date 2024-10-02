@@ -267,7 +267,7 @@ def build_or_load_vector_store():
 vector_store = build_or_load_vector_store()
 
 # Initialize the Ollama LLM
-llm = Ollama(model="llama2")
+llm = Ollama(model="llama2", server_url="http://localhost:11434")
 
 # Set up the retriever
 retriever = vector_store.as_retriever(search_kwargs={"k": 3})
